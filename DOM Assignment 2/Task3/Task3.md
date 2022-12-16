@@ -15,3 +15,19 @@
 ### Output
 
 ![Output](./Pic5.png)
+
+> Code
+
+```
+
+let newSection = document.createElement("section")
+
+newSection.className = "parent";
+let head = document.createElement("h3");
+head.innerText="My New FAQ"
+newSection.appendChild(head)
+
+
+document.querySelector(".article .accordion-homepage ").append(newSection);
+
+```
