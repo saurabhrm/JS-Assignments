@@ -20,6 +20,6 @@
 
 ```
 
-document.querySelector(".item--subtitle").innerHTML="+91 6366256689"
+document.querySelector(".item--subtitle").innerText="+91 6366256689"
 
 ```
