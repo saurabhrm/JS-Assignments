@@ -20,7 +20,7 @@ Target the top description and change “Matching developers with great companie
 
 ```
 
-document.querySelector(".btn-cta-big .login-btn-text").addEventListener("mouseover",(event)=>{event.target.style.backgroundColor = "red";})
+document.querySelector(".home22-intro-title").innerHTML="JSBOOTCAMP";
 
 
 ```

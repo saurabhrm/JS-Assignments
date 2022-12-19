@@ -20,7 +20,7 @@
 
 ```
 
-document.querySelector(".btn-cta-big .login-btn-text").addEventListener("mouseover",(event)=>{event.target.style.backgroundColor = "red";})
+document.querySelector(".my-3 .btn-primary").style.backgroundColor="blue"
 
 
 ```

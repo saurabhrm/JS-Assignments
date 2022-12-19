@@ -20,7 +20,6 @@
 
 ```
 
-document.querySelector(".btn-cta-big .login-btn-text").addEventListener("mouseover",(event)=>{event.target.style.backgroundColor = "red";})
-
+document.querySelector(".icon-logo").style.backgroundImage="url(https://ineuron.ai/images/ineuron-logo.png)";
 
 ```
