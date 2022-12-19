@@ -10,7 +10,7 @@
 
 ### Tasks
 
-      change the heading “Start with the developer” to “Start with Scratch”
+      change the heading “Build when inspiration strikes” to “Start with Scratch”
 
 ### Output
 
@@ -20,7 +20,7 @@
 
 ```
 
-document.querySelector(".btn-cta-big .login-btn-text").addEventListener("mouseover",(event)=>{event.target.style.backgroundColor = "red";})
+document.querySelector(".section-title_title__VEDfK").innerHTML="Start with Scratch" ;
 
 
 ```

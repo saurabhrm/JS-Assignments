@@ -20,7 +20,7 @@
 
 ```
 
-document.querySelector(".btn-cta-big .login-btn-text").addEventListener("mouseover",(event)=>{event.target.style.backgroundColor = "red";})
+document.querySelectorAll(".ps-top  h3")[4].style.textAlign="right";
 
 
 ```
