@@ -5,7 +5,7 @@ const lowercaseEl = document.getElementById('lowercase')
 const numbersEl = document.getElementById('numbers')
 const symbolsEl = document.getElementById('symbols')
 const generateEl = document.getElementById('generate')
-// const clipboardEl = document.getElementById('clipboard')
+const clipboardEl = document.getElementById('clipboard')
 
 const randomFunc = {
     lower: getRandomLower,
@@ -15,9 +15,10 @@ const randomFunc = {
 }
 
 
-// clipboardEl.addEventListener('click', () => {
-    
-// })
+
+clipboardEl.addEventListener('click', () => {
+ navigator.clipboard.writeText(resultEl.innerText);
+})
 
 generateEl.addEventListener('click', () => {
     document.querySelector("#result").innerHTML=generatePassword(randomFunc.lower, randomFunc.upper, randomFunc.number, randomFunc.symbol, lengthEl.value)
@@ -58,7 +59,7 @@ symbolsEl.addEventListener("change", function(){
  
 
 function generatePassword(lower, upper, number, symbol, length) {
-    
+
     let uppercaseVal = uppercaseEl.checked;
  let lowercaseVal =lowercaseEl.checked;
  let numberVal =numbersEl.checked;
@@ -91,12 +92,6 @@ function generatePassword(lower, upper, number, symbol, length) {
 var shuffled = result.split('').sort(function(){return 0.5-Math.random()}).join('');
 
 return shuffled.slice(0,length) ;
-
-
-    
-
-  
-
 
 }
 
