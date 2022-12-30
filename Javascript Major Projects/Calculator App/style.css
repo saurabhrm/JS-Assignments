@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    width: 100wh;
+}
+
+#result{
+    background-color: aliceblue;
+    height: 40px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#outPut{
+    text-align: center;
+}
+
+
+.calculator{
+    background: #000;
+    padding: 20px;
+    
+}
