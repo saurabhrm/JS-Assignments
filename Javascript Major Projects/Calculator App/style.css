@@ -1,6 +1,17 @@
 body{
     height: 100vh;
     width: 100wh;
+    background-color: blueviolet;
+    text-shadow: black 4px 4px;
+}
+
+#head{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #53d886;
 }
 
 #result{
@@ -11,6 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .container{
@@ -19,15 +31,40 @@ body{
     justify-content: center;
     align-items: center;
     
+   
 }
 
 #outPut{
-    text-align: center;
+    text-align: end;
+    border-color: #000;
 }
 
 
 .calculator{
-    background: #000;
+    background: #53d886;
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000;
+   
+}
+
+#arithMaticBtn{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 4px;
+    column-gap: 4px;
+}
+
+#numbers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 4px;
+    column-gap: 4px;
+}
+
+
+.eqal{
+    
+    grid-column: 2 / -1;
     
 }
